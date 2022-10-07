@@ -1,0 +1,20 @@
+@media only screen and (min-width: 32.5em) {
+    /*h1 {
+        font-size: 2rem;
+
+    }
+    h2 {
+        font-size: 1.5rem;
+    }*/
+    /*header img {
+        width: auto;
+    }*/
+    nav {
+        flex-direction: row;
+        display: flex;
+        font-size: 1.1rem;
+    }
+    body {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

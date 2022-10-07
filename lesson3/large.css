@@ -1,0 +1,16 @@
+@media only screen and (min-width: 64em) {
+   .container {
+    margin: 0 auto;
+    box-sizing: border-box;
+    max-width: 60rem;
+    /*position: relative;*/
+    }
+    nav {
+        font-size: 1.3rem;
+        display: flex;
+        flex-direction: row;
+    }
+    h1 {
+        text-align: center;;
+    }
+}
