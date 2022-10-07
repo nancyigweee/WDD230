@@ -5,11 +5,14 @@
     max-width: 60rem;
     /*position: relative;*/
     }
-    nav {
+    li {
         font-size: 1.3rem;
-        display: flex;
-        flex-direction: row;
+        display: inline;
     }
+
+    nav {
+        align-items: center;
+    } 
     h1 {
         text-align: center;;
     }
