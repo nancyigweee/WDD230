@@ -8,10 +8,12 @@
     li {
         font-size: 1.3rem;
         display: inline;
+        justify-content: space-evenly;
     }
 
     nav {
         align-items: center;
+
     } 
     h1 {
         text-align: center;;
