@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins' sans-serif;
+    font-size: 16px;
+    background-color: #ffffff;
+}
+
+.logo-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1a9e9d;
+}
+
+#banner {
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: #f1faf9;
+    text-align: center;
+    padding: 10px;
+    margin: 2px 0;
+    display: none;
+}
+
+#banner.true {
+    display: block;
+}
+
+#btn-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
