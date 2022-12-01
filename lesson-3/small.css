@@ -17,16 +17,21 @@ body {
 header, footer {
         background-color: #1a9e9d;
         text-align: center;
-        display: flex;
+        display: grid;
         padding: .75rem;
         border: 1px;
-        align-items: center;
+        grid-template-columns: 1fr 1fr;
     }
 
 header h1 {
     display: inline;
-    justify-content: center;
-    padding-left: 5rem; 
+    justify-content: center; 
+}
+
+.logo {
+    float: left;
+    justify-content: flex-start;
+    max-width: 100%;
 }
 
 h2, h3, h4, h5 {
@@ -74,11 +79,3 @@ li {
     margin-right: auto;
     width: 20%;
   }
-.logo {
-    float: left;
-    display: flex;
-    justify-content: flex-start;
-    margin-left: 0;
-    margin-right: 0;
-    width: 10%;
-}
