@@ -22,3 +22,12 @@ let month = date.getMonth() + 1;
 let year = date.getFullYear();
 let currentDate = `${day}-${month}-${year}`;
 document.getElementById('date').innerHTML = document.currentDate;
+
+// Code for greetings banner
+const d = new Date();
+day = d.getDay();
+greeting = document.getElementById("meetingBanner");
+if (day == 1 || day == 2) {
+    greeting.classList.add("True")
+    greeting.innerHTML = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
+}
