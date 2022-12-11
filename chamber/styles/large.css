@@ -128,4 +128,25 @@
         padding-right: 50px;
 
     }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .dcard p {
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .dcard .picture-element {
+        width: 50%;
+    }
+
+    .picture-description {
+        width: 50%;
+        margin: 0px;
+        max-width: 524px;
+    }
+
 }    

@@ -86,6 +86,14 @@
         justify-content: center;
     }
 
+    .dcard .picture-element:hover {
+        box-shadow: 0 0 20px black;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
     /*.bottom p:after {
         content: " | ";
     }*/
